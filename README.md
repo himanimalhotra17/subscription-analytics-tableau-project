@@ -276,12 +276,6 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 * Lost users
   • Subscription funnel from Signup → First Payment → Repeat Subscription
 
-🔎 **Key Product Insights:**
-
-• High acquisition ≠ high retention — paid channels drove volume but lower LTV
-• Engagement drop preceded churn, indicating potential early warning signals
-• A small “Champion” segment contributed a disproportionate share of revenue
-• Retention stabilized after the third billing cycle — critical activation window
 
 💡 **Product Implications:**
 
@@ -352,13 +346,16 @@ Segmented users into:
 
 ---
 
-## 📈 Key Insights
+## 📈 Key Product Insights
 
 - Largest drop-off occurs between Trial and Subscription
 - Premium users generate significantly higher LTV
 - Retention drops sharply after Month 1
 - Referral channel shows strongest long-term retention
-
+• High acquisition ≠ high retention — paid channels drove volume but lower LTV
+• Engagement drop preceded churn, indicating potential early warning signals
+• A small “Champion” segment contributed a disproportionate share of revenue
+• Retention stabilized after the third billing cycle — critical activation window
 ---
 
 ## 💡 Strategic Recommendations
