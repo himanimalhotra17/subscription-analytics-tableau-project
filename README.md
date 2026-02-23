@@ -18,18 +18,6 @@ RFM-based customer segmentation
 
 The dashboard provides end-to-end lifecycle analytics from acquisition to churn.
 
-🛠 Tools Used
-
-Tableau Desktop
-
-Excel
-
-Data Modeling
-
-Cohort Analysis
-
-RFM Segmentation
-
 📂 Dataset Description
 
 The dataset contains 4 tables:
@@ -182,7 +170,7 @@ Highlighted retention drop-offs after early subscription cycles
 
 Enabled data-driven customer targeting and proactive churn mitigation
 
-Tools Used: Tableau, SQL, Excel
+
 Skills Demonstrated: Product Analytics, Customer Segmentation, Cohort Analysis, Data Storytelling, BI Dashboard Design
 
 
@@ -206,7 +194,6 @@ Subscription businesses rely heavily on retaining high-value customers, but iden
 • A small segment of “Champions” contributed a large share of total revenue
 • Declining engagement was a strong early indicator of churn
 
-🛠 **Tools used:** Tableau, Excel
 📈 **Skills demonstrated:** Product Analytics, Cohort Analysis, LTV Modeling, Customer Segmentation, Dashboard Design
 
 This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
@@ -246,7 +233,7 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 • Target retention campaigns toward high-monetary, low-recency users
 • Optimize marketing spend toward high-LTV acquisition channels
 
-🛠 Tools: Tableau, Excel
+
 📈 Skills: Product Analytics, Cohort Analysis, LTV Modeling, Customer Segmentation, Data Storytelling
 
 This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
@@ -284,7 +271,7 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 • Target retention campaigns toward high-monetary, low-recency users
 • Optimize marketing spend toward high-LTV acquisition channels
 
-🛠 Tools: Tableau, Excel
+
 📈 Skills: Product Analytics, Cohort Analysis, LTV Modeling, Customer Segmentation, Data Storytelling
 
 This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
@@ -395,6 +382,7 @@ Download here:
 - SQL concepts
 - Product Analytics Frameworks
 - Cohort & Retention Modeling
+- RFM Segmentation
 
 ---
 
