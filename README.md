@@ -494,14 +494,17 @@ This project shows:
 ✔ Business storytelling with data
 ✔ Dashboard design for decision-makers
  
-📈 **Learning:**  This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
+### 📈 **Learning:**  
 This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
 
 Open to feedback and product analytics opportunities!
 
+---
+
 ## 👩‍💼 Author
 
 Himani Malhotra  
-Aspiring Product Analyst  
+Data & Product Analyst  
+malhotrahimani29@gmail.com
 
 ---
