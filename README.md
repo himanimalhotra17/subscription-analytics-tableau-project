@@ -203,29 +203,23 @@ Monthly cohort heatmap
 Retention Trend by Signup Month
 Retention drop-off patterns
 
-🔹 Retention Analysis
-
-30 / 60 / 90 Day Retention
-
-
 ### 3️⃣ Churn Analysis
 Churn rate by Plan
 Churn rate by Acquisition Channel
 Monthly Churn Trend
 Churn by User Segment
 Insights:
-
 Majority churn within first 2 months.
-
 Lower-value plan users churn faster.
-
 Long-term subscribers significantly increase LTV.
+
 ### 4️⃣ LTV Analysis
 
 LTV by Channel
 LTV by Plan
 Cohort Revenue Trend
-- Segment-wise LTV Comparison
+Segment-wise LTV Comparison
+30 / 60 / 90 Day Retention
 
 Insights:
 
@@ -263,11 +257,12 @@ Derived cohort month
 
 LTV per customer
 
-Retention percentage calculations
+Retention percentage calculations(30/60/90)
 
 Cohort indexing
 
 Revenue segmentation
+
 
 3️⃣ Dashboard Development (Tableau)
 
@@ -279,196 +274,17 @@ Churn Trend Analysis
 
 LTV Distribution Histogram
 
-Interactive filters (Plan, Segment, Signup Month)
-
-
-
-Step 2: Feature Engineering
-
-Created retention buckets (30/60/90)
-
-Calculated LTV per user
-
-Generated cohort month
-
-Computed revenue aggregation by segment
-
-Step 3: KPI Modeling in Tableau
-
-Created calculated fields for:
-
-Retention %
-
-Churn %
-
-ARPU
-
-Cohort Index
-
-Designed interactive filters:
-
-Plan Type
-
-Device
-
-Signup Month
-
-User Segment
+Interactive filters (Plan, User Segment, Signup Month)
 
 ---
 
 ## 📈 Key Product Insights
 
 - Premium plan users generated significantly higher lifetime value
-- Retention drops sharply after Month 1
 - Referral channel shows strongest long-term retention
 • High acquisition ≠ high retention — paid channels drove volume/acquisition but lower LTV/retention.
 • Engagement drop preceded churn, indicating potential early warning signals, Declining engagement was a strong early indicator of churn
-• A small “Champion” segment contributed a disproportionate share of revenue, Champions segment contributes majority of total revenue.
 • Retention stabilized after the third billing cycle — critical activation window. At-risk users show declining engagement before churn.
- 
-
----
-
-## 💡 Strategic Recommendations
-
-- Improve onboarding flow to increase activation
-- Optimize pricing & trial-to-paid transition
-- Focus retention campaigns on high-value segments
-- Invest more in high-LTV acquisition channels
-- Implement churn prediction model
-
----
-
-## 🖥 Dashboard
-
-Interactive Tableau dashboard included:
-
-`dashboard/subscription-product-analytics-dashboard.twbx`
-
-Preview:
-
-![Dashboard](images/full_dashboard.png)
-
----
-
-## 📄 Full Case Study (Consulting Style)
-
-Download here:
-
-`case-study/Branded_Product_Analytics_Case_Study_Consulting_Style.pdf`
-
----
-
-## 🛠 Tools Used
-
-- Tableau
-- Excel
-- SQL concepts
-- Product Analytics Frameworks
-- Cohort & Retention Modeling
-- RFM Segmentation
-
----
-
-### 🧠 Skills Demonstrated
-
-Cohort analysis
-
-Churn analytics
-
-Customer Lifetime Value modeling
-
-RFM segmentation
-
-SaaS KPI understanding
-
-Interactive dashboard design
-
-Data Storytelling
-
-BI Dashboard Design
-
-
----
-
-💡 **Product Implications:**
-
-• Improve onboarding experience during first 30 days
-• Build nudges for declining engagement users
-• Target retention campaigns toward high-monetary, low-recency users
-• Optimize marketing spend toward high-LTV acquisition channels
-
-
-This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
-
-Open to feedback and product analytics opportunities!
-
-
-## 👩‍💼 Author
-
-Himani Malhotra  
-Aspiring Product Analyst  
-
-### 🚀 Business Impact
-
-This dashboard enables:
-Better marketing budget allocation
-Churn reduction strategies
-High-value user targeting
-Revenue growth optimization
-
-Built executive KPI dashboard tracking Revenue, LTV, Churn Rate, and Active Users
-Designed Cohort Retention Analysis to measure long-term engagement trends
-Performed RFM (Recency, Frequency, Monetary) segmentation to identify Champions, Loyal, At-Risk, and Lost users
-Conducted churn analysis by plan type and acquisition channel
-Delivered actionable recommendations to optimize marketing ROI and improve retention
-
-Impact:
-Identified high-value customer segments contributing majority revenue
-Highlighted retention drop-offs after early subscription cycles
-Enabled data-driven customer targeting and proactive churn mitigation
-
-
-📊 **What the dashboard covers:**
-
-• Executive overview with Revenue, Active Users, LTV, and Churn Rate
-• Cohort retention analysis to track user engagement over time
-• Churn analysis by acquisition channel and subscription plan
-• Customer Lifetime Value (LTV) analysis to identify high-value segments
-• RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
-• Subscription funnel analysis from signup to repeat subscription
-
-📈 **Learning:**  This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
-
-
-## Impact Simulation
-
-If early churn reduces by 10%:
-
-Retention increases
-
-Average lifetime increases
-
-LTV improves significantly
-
-Revenue compounds over time
-
-Even a small retention lift in subscription models creates disproportionate revenue growth.
-
-##  💼 What This Project Demonstrates 
-This project shows:
-
-✔ Strong product analytics fundamentals
-✔ Deep understanding of retention economics
-✔ Cohort-based thinking
-✔ Revenue-centric analysis
-✔ Business storytelling with data
-✔ Dashboard design for decision-makers
- 
----
-
-## 📊 Key Insights
 
 ### 📉 Retention Drop After 60 Days/ Early Churn is the Core Problem
 
@@ -490,6 +306,7 @@ Implication: Possible product-market fit or onboarding experience issue.
 ### 📈 📊LTV Distribution is Right-Skewed
 
 A small high-value user segment drives significant revenue impact.
+• A small “Champion” segment contributed a disproportionate share of revenue, Champions segment contributes majority of total revenue.
 
 Implication: Growth strategy should balance acquisition + lifecycle optimization.
 🔎 3. High LTV Users Are Long-Term Retained Users
@@ -497,6 +314,16 @@ Implication: Growth strategy should balance acquisition + lifecycle optimization
 Revenue compounds over time in subscription models.
 
 Implication: Invest in engagement loops, loyalty benefits, renewal incentives.
+
+---
+
+## 💡 Strategic Recommendations
+
+- Improve onboarding flow to increase activation
+- Optimize pricing & trial-to-paid transition
+- Focus retention campaigns on high-value segments
+- Invest more in high-LTV acquisition channels
+- Implement churn prediction model
 
 ---
 
@@ -548,6 +375,57 @@ Higher revenue stability
 
 ---
 
+
+
+## 🖥 Dashboard
+
+Interactive Tableau dashboard included:
+
+`dashboard/subscription-product-analytics-dashboard.twbx`
+
+Preview:
+
+![Dashboard](images/full_dashboard.png)
+
+---
+
+## 📄 Full Case Study (Consulting Style)
+
+Download here:
+
+`case-study/Branded_Product_Analytics_Case_Study_Consulting_Style.pdf`
+
+---
+
+## 🛠 Tools Used
+
+- Tableau
+- Excel
+- SQL concepts
+- Product Analytics Frameworks
+- Cohort & Retention Modeling
+- RFM Segmentation
+
+---
+
+### 🧠 Skills Demonstrated
+
+Cohort analysis
+
+Churn analytics
+
+Customer Lifetime Value modeling
+
+RFM segmentation
+
+SaaS KPI understanding
+
+Interactive dashboard design
+
+Data Storytelling
+
+BI Dashboard Design
+
 ### Technical Skills Demonstrated
 
 Tableau Dashboard Design
@@ -561,3 +439,69 @@ LTV Modeling
 Retention Funnel Analysis
 
 Executive-Level Data Storytelling
+
+---
+📊 **What the dashboard covers:**
+
+• Executive overview with Revenue, Active Users, LTV, and Churn Rate
+• Cohort retention analysis to track user engagement over time
+• Churn analysis by acquisition channel and subscription plan
+• Customer Lifetime Value (LTV) analysis to identify high-value segments
+• RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
+• Subscription funnel analysis from signup to repeat subscription
+
+💡 **Product Implications:**
+
+• Improve onboarding experience during first 30 days
+• Build nudges for declining engagement users
+• Target retention campaigns toward high-monetary, low-recency users
+• Optimize marketing spend toward high-LTV acquisition channels
+
+### 🚀 Business Impact
+
+This dashboard enables:
+Better marketing budget allocation
+Churn reduction strategies
+High-value user targeting
+Revenue growth optimization
+
+Built executive KPI dashboard tracking Revenue, LTV, Churn Rate, and Active Users
+Designed Cohort Retention Analysis to measure long-term engagement trends
+Performed RFM (Recency, Frequency, Monetary) segmentation to identify Champions, Loyal, At-Risk, and Lost users
+Conducted churn analysis by plan type and acquisition channel
+Delivered actionable recommendations to optimize marketing ROI and improve retention
+## Impact Simulation
+
+If early churn reduces by 10%:
+
+Retention increases
+
+Average lifetime increases
+
+LTV improves significantly
+
+Revenue compounds over time
+
+Even a small retention lift in subscription models creates disproportionate revenue growth.
+
+##  💼 What This Project Demonstrates 
+This project shows:
+
+✔ Strong product analytics fundamentals
+✔ Deep understanding of retention economics
+✔ Cohort-based thinking
+✔ Revenue-centric analysis
+✔ Business storytelling with data
+✔ Dashboard design for decision-makers
+ 
+📈 **Learning:**  This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
+This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
+
+Open to feedback and product analytics opportunities!
+
+## 👩‍💼 Author
+
+Himani Malhotra  
+Aspiring Product Analyst  
+
+---
