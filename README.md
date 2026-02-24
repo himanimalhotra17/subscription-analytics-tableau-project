@@ -1,37 +1,21 @@
+# Subscription Product Analytics Project
+## Retention, Churn, LTV & RFM Analysis using Tableau
 
+## 📌 Project Overview
+I recently built a product analytics dashboard simulating a SaaS subscription business to answer a core product question:
+👉 *Why do users churn, and how can we retain high-value customers?*
+Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact.
 
-### 🚀 Business Impact
+This project analyzes the full customer lifecycle of a subscription-based digital product.  
+The objective was to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV).
 
-This dashboard enables:
-Better marketing budget allocation
-Churn reduction strategies
-High-value user targeting
-Revenue growth optimization
+The dashboard provides end-to-end lifecycle analytics from acquisition to churn replicating the analysis workflow used in real-world SaaS companies.
 
-Built executive KPI dashboard tracking Revenue, LTV, Churn Rate, and Active Users
-Designed Cohort Retention Analysis to measure long-term engagement trends
-Performed RFM (Recency, Frequency, Monetary) segmentation to identify Champions, Loyal, At-Risk, and Lost users
-Conducted churn analysis by plan type and acquisition channel
-Delivered actionable recommendations to optimize marketing ROI and improve retention
+---
 
-Impact:
-Identified high-value customer segments contributing majority revenue
-Highlighted retention drop-offs after early subscription cycles
-Enabled data-driven customer targeting and proactive churn mitigation
+🔗 Live Dashboard: (Add Tableau Public link here)
 
-
-📊 **What the dashboard covers:**
-
-• Executive overview with Revenue, Active Users, LTV, and Churn Rate
-• Cohort retention analysis to track user engagement over time
-• Churn analysis by acquisition channel and subscription plan
-• Customer Lifetime Value (LTV) analysis to identify high-value segments
-• RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
-• Subscription funnel analysis from signup to repeat subscription
-
-
-
-📈 **Learning:**  This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
+----
 
 🚀 Just completed a Subscription Analytics Dashboard to analyze Retention, Churn, LTV, and Customer Segmentation using Tableau.
 
@@ -55,36 +39,6 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 * Lost users
   • Subscription funnel from Signup → First Payment → Repeat Subscription
 
-
-
-💡 **Product Implications:**
-
-• Improve onboarding experience during first 30 days
-• Build nudges for declining engagement users
-• Target retention campaigns toward high-monetary, low-recency users
-• Optimize marketing spend toward high-LTV acquisition channels
-
-
-
-# Subscription Product Analytics Project
-## Retention, Churn, LTV & RFM Analysis using Tableau
-
-## 📌 Project Overview
-
-I recently built a product analytics dashboard simulating a SaaS subscription business to answer a core product question:
-👉 *Why do users churn, and how can we retain high-value customers?*
-Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact.
-
-This project analyzes the full customer lifecycle of a subscription-based digital product.  
-The objective was to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV).
-
-The dashboard provides end-to-end lifecycle analytics from acquisition to churn replicating the analysis workflow used in real-world SaaS companies.
-
----
-
-🔗 Live Dashboard: (Add Tableau Public link here)
-
-----
 
 📊 **What I analyzed:**
 
@@ -305,3 +259,49 @@ Open to feedback and product analytics opportunities!
 
 Himani Malhotra  
 Aspiring Product Analyst  
+
+### 🚀 Business Impact
+
+This dashboard enables:
+Better marketing budget allocation
+Churn reduction strategies
+High-value user targeting
+Revenue growth optimization
+
+Built executive KPI dashboard tracking Revenue, LTV, Churn Rate, and Active Users
+Designed Cohort Retention Analysis to measure long-term engagement trends
+Performed RFM (Recency, Frequency, Monetary) segmentation to identify Champions, Loyal, At-Risk, and Lost users
+Conducted churn analysis by plan type and acquisition channel
+Delivered actionable recommendations to optimize marketing ROI and improve retention
+
+Impact:
+Identified high-value customer segments contributing majority revenue
+Highlighted retention drop-offs after early subscription cycles
+Enabled data-driven customer targeting and proactive churn mitigation
+
+
+📊 **What the dashboard covers:**
+
+• Executive overview with Revenue, Active Users, LTV, and Churn Rate
+• Cohort retention analysis to track user engagement over time
+• Churn analysis by acquisition channel and subscription plan
+• Customer Lifetime Value (LTV) analysis to identify high-value segments
+• RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
+• Subscription funnel analysis from signup to repeat subscription
+
+
+
+📈 **Learning:**  This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
+
+
+
+
+
+💡 **Product Implications:**
+
+• Improve onboarding experience during first 30 days
+• Build nudges for declining engagement users
+• Target retention campaigns toward high-monetary, low-recency users
+• Optimize marketing spend toward high-LTV acquisition channels
+
+
