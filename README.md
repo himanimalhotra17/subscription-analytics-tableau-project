@@ -54,11 +54,8 @@ Subscription businesses rely heavily on retaining high-value customers, but iden
 • A small segment of “Champions” contributed a large share of total revenue
 • Declining engagement was a strong early indicator of churn
 
-📈 **Skills demonstrated:** Product Analytics, Cohort Analysis, LTV Modeling, Customer Segmentation, Dashboard Design
+📈 **Learning:**  This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
 
-This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
-
-🚀 Product Analytics Project: Subscription Retention, Churn & LTV Dashboard (Tableau)
 
 I recently built a product analytics dashboard simulating a SaaS subscription business to answer a core product question:
 
@@ -94,21 +91,29 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 • Optimize marketing spend toward high-LTV acquisition channels
 
 
-📈 Skills: Product Analytics, Cohort Analysis, LTV Modeling, Customer Segmentation, Data Storytelling
 
-This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
 
-Open to feedback and product analytics opportunities!
 
-#ProductAnalytics #Tableau #Retention #ChurnAnalysis #LTV #SaaS #DataDriven #OpenToWork
 
-🚀 Product Analytics Project: Subscription Retention, Churn & LTV Dashboard (Tableau)
+
+# Subscription Product Analytics Case Study
+
+## 📌 Project Overview
 
 I recently built a product analytics dashboard simulating a SaaS subscription business to answer a core product question:
-
 👉 *Why do users churn, and how can we retain high-value customers?*
-
 Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact.
+
+This project analyzes the full customer lifecycle of a subscription-based digital product.  
+The objective was to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV).
+
+The dashboard provides end-to-end lifecycle analytics from acquisition to churn replicating the analysis workflow used in real-world SaaS companies.
+
+---
+
+🔗 Live Dashboard: (Add Tableau Public link here)
+
+----
 
 📊 **What I analyzed:**
 
@@ -121,7 +126,7 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 * Loyal users
 * At-risk customers
 * Lost users
-  • Subscription funnel from Signup → First Payment → Repeat Subscription
+• Subscription funnel from Signup → First Payment → Repeat Subscription
 
 
 💡 **Product Implications:**
@@ -135,25 +140,6 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 📈 Skills: Product Analytics, Cohort Analysis, LTV Modeling, Customer Segmentation, Data Storytelling
 
 This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
-
-Open to feedback and product analytics opportunities!
-
-#ProductAnalytics #Tableau #Retention #ChurnAnalysis #LTV #SaaS #DataDriven #OpenToWork
-
-# Subscription Product Analytics Case Study
-
-## 📌 Project Overview
-
-This project analyzes the full customer lifecycle of a subscription-based digital product.  
-The objective was to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV).
-
-The dashboard provides end-to-end lifecycle analytics from acquisition to churn replicating the analysis workflow used in real-world SaaS companies.
-
----
-
-🔗 Live Dashboard: (Add Tableau Public link here)
-
-----
 
 ## 🎯 Business Questions
 
@@ -337,6 +323,11 @@ BI Dashboard Design
 
 
 ---
+
+This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
+
+Open to feedback and product analytics opportunities!
+
 
 ## 👩‍💼 Author
 
