@@ -1,6 +1,4 @@
-# Subscription Analytics Dashboard
 
-## Retention, Churn, LTV & RFM Analysis using Tableau
 
 ### 🚀 Business Impact
 
@@ -68,7 +66,8 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 
 
 
-# Subscription Product Analytics Case Study
+# Subscription Product Analytics Project
+## Retention, Churn, LTV & RFM Analysis using Tableau
 
 ## 📌 Project Overview
 
