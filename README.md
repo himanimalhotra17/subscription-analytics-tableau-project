@@ -508,91 +508,14 @@ Long-retained cohorts generate exponential revenue growth.
 
 Reducing early churn by 10% would significantly increase total LTV.
 
-6️⃣ Key Findings
-🔎 1. Early Churn is the Core Problem
 
-Most users churn within the first 30–60 days.
 
-Implication: Onboarding & activation improvements can drastically impact retention.
 
-🔎 2. Retention Drives Revenue More Than Acquisition
 
-Cohorts with stronger retention contribute disproportionately to revenue.
 
-Implication: Growth strategy should balance acquisition + lifecycle optimization.
 
-🔎 3. High LTV Users Are Long-Term Retained Users
 
-Revenue compounds over time in subscription models.
-
-Implication: Invest in engagement loops, loyalty benefits, renewal incentives.
-
-🔎 4. Churn Is Not Uniform Across Cohorts
-
-Recent cohorts show slightly weaker retention.
-
-Implication: Possible product-market fit or onboarding experience issue.
-
-7️⃣ Business Recommendations
-🚀 1. Improve First 30-Day Experience
-
-Guided onboarding
-
-Usage nudges
-
-Feature discovery emails
-
-Personalized activation campaigns
-
-🚀 2. Create Retention-Based Segmentation
-
-Segment users into:
-
-High LTV loyalists
-
-Early churn risk
-
-Mid-lifecycle drop-off
-
-Trigger lifecycle-based interventions.
-
-🚀 3. Introduce Renewal Incentives
-
-Annual discounts
-
-Loyalty rewards
-
-Plan upgrades with bundled features
-
-🚀 4. Monitor Leading Churn Indicators
-
-Add:
-
-Engagement frequency
-
-Usage drop signals
-
-Payment failure tracking
-
-8️⃣ Tools Used
-
-Tableau – Dashboard design & cohort analysis
-
-Excel – Data cleaning & preprocessing
-
-Calculated fields:
-
-Retention duration
-
-LTV
-
-Churn flags
-
-Cohort grouping
-
-Rolling retention %
-
-9️⃣ Impact Simulation
+## Impact Simulation
 
 If early churn reduces by 10%:
 
@@ -606,9 +529,8 @@ Revenue compounds over time
 
 Even a small retention lift in subscription models creates disproportionate revenue growth.
 
-🔟 What This Project Demonstrates (For Recruiters)
-
-💼This project shows:
+##  💼 What This Project Demonstrates 
+This project shows:
 
 ✔ Strong product analytics fundamentals
 ✔ Deep understanding of retention economics
@@ -617,26 +539,10 @@ Even a small retention lift in subscription models creates disproportionate reve
 ✔ Business storytelling with data
 ✔ Dashboard design for decision-makers
  
+---
 
-🧠 Why This Is a Strong Product Analyst Project
+## 🛠 Analytical Approach
 
-Unlike surface-level dashboards, this project:
-
-Connects metrics to business outcomes
-
-Identifies root causes (early churn)
-
-Suggests product strategy actions
-
-Simulates impact
-
-Uses lifecycle-based thinking
-
-This reflects mid-to-senior level product analytics thinking.
-
-
-
-🛠 Analytical Approach
 1️⃣ Data Preparation
 
 Cleaned subscription lifecycle data
@@ -667,80 +573,52 @@ Churn Trend Analysis
 
 LTV Distribution Histogram
 
-Pareto Revenue Chart
-
 Interactive filters (Plan, Segment, Signup Month)
 
-📊 Key Insights
-📉 Retention Drop After 60 Days
+---
+
+
+## 📊 Key Insights
+
+### 📉 Retention Drop After 60 Days/ Early Churn is the Core Problem
 
 Strong 30-day retention but a noticeable decline at 60–90 days — indicating engagement gaps post-trial.
 
-💰 Revenue is Highly Concentrated
+Implication: Onboarding & activation improvements can drastically impact retention.
+
+### 💰 Revenue is Highly Concentrated
 
 Top 20% of users contribute a disproportionately large share of revenue.
 
-⚠️ Cohort Quality Varies
+### ⚠️ Cohort Quality Varies
 
 Some acquisition cohorts show weaker long-term retention — suggesting channel quality differences.
 
-📈 LTV Distribution is Skewed
+Implication: Possible product-market fit or onboarding experience issue.
+
+
+### 📈 📊LTV Distribution is Right-Skewed
 
 A small high-value user segment drives significant revenue impact.
 
-🚀 Business Recommendations
+Implication: Growth strategy should balance acquisition + lifecycle optimization.
+🔎 3. High LTV Users Are Long-Term Retained Users
 
-Improve engagement during the 30–60 day lifecycle window
+Revenue compounds over time in subscription models.
 
-Create retention programs for high-LTV users
+Implication: Invest in engagement loops, loyalty benefits, renewal incentives.
 
-Optimize acquisition channels based on cohort performance
+---
 
-Implement proactive churn monitoring
-
-📈 Expected Business Impact
-
-If implemented, projected outcomes include:
-
-+5–8% improvement in 60-day retention
-
-+10–15% increase in average LTV
-
-3–5% churn reduction
-
-Improved revenue predictability
-
-📉 Retention Drops After 60 Days
-
-Strong 30-day retention
-
-Significant drop at 60–90 days
-
-Indicates post-trial engagement issue
-
-💰 Revenue is Highly Concentrated
-
-Top 20% users contribute disproportionately high revenue
-
-Opportunity: Protect high-LTV cohort
-
-⚠️ Churn Spike in Specific Cohorts
-
-Certain signup months show weaker retention
-
-Likely tied to acquisition channel quality
-
-📊 LTV Distribution is Right-Skewed
-
-Majority users have moderate LTV
-
-Small premium segment drives majority revenue
 ## Business Recommendations
+
 ### 🎯 1. Strengthen 30–60 Day Engagement
 
 Trigger behavioral nudges
 
-Introduce feature education emails
+Introduce feature discovery emails 
+
+Guided Onboarding to improve First 30-Day Experience
 
 Incentivize milestone usage
 
@@ -748,7 +626,7 @@ Incentivize milestone usage
 
 Early churn prediction model
 
-Premium loyalty benefits
+Premium annual renewal incentives, loyalty benefits and Plan upgrades with bundled features
 
 Dedicated retention campaigns
 
@@ -763,12 +641,12 @@ Align acquisition with long-term value
 Flag users inactive for X days
 
 Offer upgrade or discount incentives
- 
+
 ---
  
-## Business Impact (If Implemented)
+## 📈Expected Business Impact 
 
-### Estimated Improvements:
+### If implemented, projected outcomes include:Estimated Improvements:
 
 +5–8% increase in 60-day retention
 
