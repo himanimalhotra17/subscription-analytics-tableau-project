@@ -2,41 +2,25 @@
 
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
-
 ### 🚀 Business Impact
 
 This dashboard enables:
-
 Better marketing budget allocation
-
 Churn reduction strategies
-
 High-value user targeting
-
 Revenue growth optimization
 
 Built executive KPI dashboard tracking Revenue, LTV, Churn Rate, and Active Users
-
 Designed Cohort Retention Analysis to measure long-term engagement trends
-
 Performed RFM (Recency, Frequency, Monetary) segmentation to identify Champions, Loyal, At-Risk, and Lost users
-
 Conducted churn analysis by plan type and acquisition channel
-
 Delivered actionable recommendations to optimize marketing ROI and improve retention
 
 Impact:
-
 Identified high-value customer segments contributing majority revenue
-
 Highlighted retention drop-offs after early subscription cycles
-
 Enabled data-driven customer targeting and proactive churn mitigation
 
-
-🚀 Just completed a Subscription Analytics Dashboard to analyze Retention, Churn, LTV, and Customer Segmentation using Tableau.
-
-Subscription businesses rely heavily on retaining high-value customers, but identifying churn risks and understanding lifetime value is often challenging. I built this project to simulate a real SaaS product analytics scenario and uncover actionable insights across the customer lifecycle.
 
 📊 **What the dashboard covers:**
 
@@ -47,16 +31,13 @@ Subscription businesses rely heavily on retaining high-value customers, but iden
 • RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
 • Subscription funnel analysis from signup to repeat subscription
 
-🔍 **Key insights:**
 
-• Premium plan users generated significantly higher lifetime value
-• Paid channels drove user acquisition but showed lower retention
-• A small segment of “Champions” contributed a large share of total revenue
-• Declining engagement was a strong early indicator of churn
 
 📈 **Learning:**  This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
 
+🚀 Just completed a Subscription Analytics Dashboard to analyze Retention, Churn, LTV, and Customer Segmentation using Tableau.
 
+Subscription businesses rely heavily on retaining high-value customers, but identifying churn risks and understanding lifetime value is often challenging. I built this project to simulate a real SaaS product analytics scenario and uncover actionable insights across the customer lifecycle.
 I recently built a product analytics dashboard simulating a SaaS subscription business to answer a core product question:
 
 👉 *Why do users churn, and how can we retain high-value customers?*
@@ -76,12 +57,7 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 * Lost users
   • Subscription funnel from Signup → First Payment → Repeat Subscription
 
-🔎 **Key Product Insights:**
 
-• High acquisition ≠ high retention — paid channels drove volume but lower LTV
-• Engagement drop preceded churn, indicating potential early warning signals
-• A small “Champion” segment contributed a disproportionate share of revenue
-• Retention stabilized after the third billing cycle — critical activation window
 
 💡 **Product Implications:**
 
@@ -89,10 +65,6 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 • Build nudges for declining engagement users
 • Target retention campaigns toward high-monetary, low-recency users
 • Optimize marketing spend toward high-LTV acquisition channels
-
-
-
-
 
 
 
@@ -252,13 +224,14 @@ Revenue contribution by segment
 
 ## 📈 Key Product Insights
 
-- Premium users generate significantly higher LTV
+- Premium plan users generated significantly higher lifetime value
 - Retention drops sharply after Month 1
 - Referral channel shows strongest long-term retention
-• High acquisition ≠ high retention — paid channels drove volume but lower LTV/retention.
-• Engagement drop preceded churn, indicating potential early warning signals
+• High acquisition ≠ high retention — paid channels drove volume/acquisition but lower LTV/retention.
+• Engagement drop preceded churn, indicating potential early warning signals, Declining engagement was a strong early indicator of churn
 • A small “Champion” segment contributed a disproportionate share of revenue, Champions segment contributes majority of total revenue.
 • Retention stabilized after the third billing cycle — critical activation window. At-risk users show declining engagement before churn.
+ 
 
 ---
 
