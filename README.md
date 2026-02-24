@@ -2,6 +2,7 @@
 
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
+
 ### 🚀 Business Impact
 
 This dashboard enables:
@@ -12,14 +13,7 @@ Churn reduction strategies
 
 High-value user targeting
 
-🔗 Live Dashboard: (Add Tableau Public link here)
 Revenue growth optimization
-
-Subscription Analytics Dashboard | Tableau + RFM Segmentation
-
-Developed an end-to-end subscription analytics dashboard to evaluate customer retention, churn drivers, and lifetime value for a SaaS business.
-
-Key Highlights:
 
 Built executive KPI dashboard tracking Revenue, LTV, Churn Rate, and Active Users
 
@@ -38,9 +32,6 @@ Identified high-value customer segments contributing majority revenue
 Highlighted retention drop-offs after early subscription cycles
 
 Enabled data-driven customer targeting and proactive churn mitigation
-
-
-Skills Demonstrated: Product Analytics, Customer Segmentation, Cohort Analysis, Data Storytelling, BI Dashboard Design
 
 
 🚀 Just completed a Subscription Analytics Dashboard to analyze Retention, Churn, LTV, and Customer Segmentation using Tableau.
@@ -159,6 +150,10 @@ The objective was to identify conversion bottlenecks, optimize retention, and im
 The dashboard provides end-to-end lifecycle analytics from acquisition to churn replicating the analysis workflow used in real-world SaaS companies.
 
 ---
+
+🔗 Live Dashboard: (Add Tableau Public link here)
+
+----
 
 ## 🎯 Business Questions
 
@@ -335,6 +330,11 @@ RFM segmentation
 SaaS KPI understanding
 
 Interactive dashboard design
+
+Data Storytelling
+
+BI Dashboard Design
+
 
 ---
 
