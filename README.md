@@ -1,45 +1,16 @@
 # 📊Subscription Product Analytics Project
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
+
+
 ## 📌 Project Overview
 
-🚀Subscription businesses rely heavily on retaining high-value customers, but identifying churn risks and understanding lifetime value is often challenging. 
-I built this project to simulate a real SaaS product analytics scenario and uncover user retention, churn behavior, and lifetime value (LTV) insights across the customer lifecycle to answer a core product question for a subscription-based digital product:
-👉 *Why do users churn, and how can we retain high-value customers?*
+🚀Subscription-based digital product businesses rely heavily on retaining high-value customers.Business was experiencing fluctuating retention rates and 
+unclear revenue concentration also identifying churn risks and understanding lifetime value is often challenging. But the core product question for every business remains:👉 *Why do users churn, and how can we retain high-value customers?*
+
+So, I built this project to simulate a real SaaS product analytics scenario using a single executive dashboard to uncover user retention, clear churn behavior, and (LTV) distribution visibility insights across the customer lifecycle.
 
 Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV).
-1️⃣ Business Context
-
-A subscription-based digital product was experiencing:
-
-Fluctuating retention rates
-
-Rising churn
-
-Unclear revenue concentration
-
-No unified visibility into customer lifetime value
-
-Leadership needed:
-
-A single executive dashboard
-
-Clear churn diagnostics
-
-LTV distribution visibility
-
-Cohort-based retention analysis
-
-Actionable recommendations
-The objective was to build an executive-ready Tableau dashboard that helps leadership with end-to-end lifecycle analytics from acquisition to churn replicating the analysis workflow used in real-world SaaS projects like : 
-
-Diagnosing retention drop-offs
-
-Identifying churn patterns
-
-Understanding revenue concentration
-
-Optimizing customer lifetime value
 
 ---
 
@@ -51,29 +22,15 @@ Optimizing customer lifetime value
 
 • Cohort retention trends to understand long-term engagement
 • Churn drivers by acquisition channel and subscription plan
-• Customer Lifetime Value (LTV) by segment
+• Customer Lifetime Value (LTV) optimization by segment
+• Revenue Concentration and retention drop offs
 • RFM segmentation (Recency, Frequency, Monetary) to identify:
-
 * Champions
 * Loyal users
 * At-risk customers
 * Lost users
-  • Subscription funnel from Signup → First Payment → Repeat Subscription
+• Subscription funnel from Signup → First Payment → Repeat Subscription
 
-
-🎯 Business Problem
-
-The company lacked visibility into:
-
-30 / 60 / 90 day retention trends
-
-Revenue leakage due to churn
-
-LTV distribution across user segments
-
-Revenue concentration among high-value users
-
-Without this insight, decision-making around growth and retention was reactive instead of strategic.
 
 📌 Key KPIs Tracked
 
@@ -85,9 +42,8 @@ Customer Lifetime Value (LTV)
 
 Average Revenue Per User (ARPU)
 
-Revenue Contribution (Top 20% Users – Pareto Analysis)
-
 Cohort-Based Retention
+
 | Metric                        | Definition                          |
 | ----------------------------- | ----------------------------------- |
 | Retention Rate                | % of users active after X days      |
@@ -97,17 +53,8 @@ Cohort-Based Retention
 | Revenue Concentration         | % revenue from top 20% users        |
 | Cohort Retention              | Retention by signup month           |
 
-💡 **Product Implications:**
-
-• Improve onboarding experience during first 30 days
-• Build nudges for declining engagement users
-• Target retention campaigns toward high-monetary, low-recency users
-• Optimize marketing spend toward high-LTV acquisition channels
 
 
-📈 Skills: Product Analytics, Cohort Analysis, LTV Modeling, Customer Segmentation, Data Storytelling
-
-This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
 
 ## 🎯 Business Questions
 
@@ -173,6 +120,7 @@ Measured:
 - LTV distribution
 - Revenue contribution by segment
 
+  
 ### 5️⃣ RFM Segmentation
 Segmented users into:
 - Champions
@@ -188,23 +136,33 @@ Segmented users into:
 Total Users
 Active Subscribers
 Total Revenue
+Churn Rate %
 Average LTV
-Monthly Revenue Trend
+Revenue Trend Over Time
 
 ### 2️⃣ Cohort Retention Analysis
 
 Monthly cohort heatmap
+Retention Trend by Signup Month
 Retention drop-off patterns
+
+🔹 Retention Analysis
+
+30 / 60 / 90 Day Retention
+
 
 ### 3️⃣ Churn Analysis
 Churn rate by Plan
 Churn rate by Acquisition Channel
+Monthly Churn Trend
+Churn by User Segment
 
 ### 4️⃣ LTV Analysis
 
 LTV by Channel
 LTV by Plan
 Cohort Revenue Trend
+- Segment-wise LTV Comparison
 
 ### 5️⃣ Subscription Funnel
 
@@ -215,6 +173,49 @@ Signup → Subscriber → Paying User → Repeat Subscriber
 Recency, Frequency, Monetary scoring
 Customer segments (Champions, Loyal, At Risk, Lost)
 Revenue contribution by segment
+
+5️⃣ Analytical Approach
+Step 1: Data Cleaning
+
+Removed duplicates
+
+Standardized subscription dates
+
+Calculated lifecycle duration
+
+Derived churn flag (Active vs Cancelled)
+
+Step 2: Feature Engineering
+
+Created retention buckets (30/60/90)
+
+Calculated LTV per user
+
+Generated cohort month
+
+Computed revenue aggregation by segment
+
+Step 3: KPI Modeling in Tableau
+
+Created calculated fields for:
+
+Retention %
+
+Churn %
+
+ARPU
+
+Cohort Index
+
+Designed interactive filters:
+
+Plan Type
+
+Device
+
+Signup Month
+
+User Segment
 
 ---
 
@@ -292,6 +293,14 @@ BI Dashboard Design
 
 
 ---
+
+💡 **Product Implications:**
+
+• Improve onboarding experience during first 30 days
+• Build nudges for declining engagement users
+• Target retention campaigns toward high-monetary, low-recency users
+• Optimize marketing spend toward high-LTV acquisition channels
+
 
 This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
 
@@ -701,4 +710,86 @@ If implemented, projected outcomes include:
 
 Improved revenue predictability
 
+📉 Retention Drops After 60 Days
 
+Strong 30-day retention
+
+Significant drop at 60–90 days
+
+Indicates post-trial engagement issue
+
+💰 Revenue is Highly Concentrated
+
+Top 20% users contribute disproportionately high revenue
+
+Opportunity: Protect high-LTV cohort
+
+⚠️ Churn Spike in Specific Cohorts
+
+Certain signup months show weaker retention
+
+Likely tied to acquisition channel quality
+
+📊 LTV Distribution is Right-Skewed
+
+Majority users have moderate LTV
+
+Small premium segment drives majority revenue
+## Business Recommendations
+### 🎯 1. Strengthen 30–60 Day Engagement
+
+Trigger behavioral nudges
+
+Introduce feature education emails
+
+Incentivize milestone usage
+
+### 🎯 2. Protect High LTV Segment
+
+Early churn prediction model
+
+Premium loyalty benefits
+
+Dedicated retention campaigns
+
+### 🎯 3. Improve Acquisition Quality
+
+Reassess channels tied to weak cohorts
+
+Align acquisition with long-term value
+
+### 🎯 4. Introduce Proactive Churn Alerts
+
+Flag users inactive for X days
+
+Offer upgrade or discount incentives
+ 
+---
+ 
+## Business Impact (If Implemented)
+
+### Estimated Improvements:
+
++5–8% increase in 60-day retention
+
++10–15% increase in average LTV
+
+3–5% reduction in churn
+
+Higher revenue stability
+
+---
+
+### Technical Skills Demonstrated
+
+Tableau Dashboard Design
+
+Calculated Fields & KPI Engineering
+
+Cohort Analysis
+
+LTV Modeling
+
+Retention Funnel Analysis
+
+Executive-Level Data Storytelling
