@@ -599,7 +599,7 @@ Even a small retention lift in subscription models creates disproportionate reve
 
 🔟 What This Project Demonstrates (For Recruiters)
 
-This project shows:
+💼This project shows:
 
 ✔ Strong product analytics fundamentals
 ✔ Deep understanding of retention economics
@@ -607,6 +607,7 @@ This project shows:
 ✔ Revenue-centric analysis
 ✔ Business storytelling with data
 ✔ Dashboard design for decision-makers
+ 
 
 🧠 Why This Is a Strong Product Analyst Project
 
@@ -624,19 +625,7 @@ Uses lifecycle-based thinking
 
 This reflects mid-to-senior level product analytics thinking.
 
-📌 How You Can Add This to Your Resume
 
-Product Analytics Project | Subscription Retention & LTV Optimization
-
-Built a cohort-based retention and churn dashboard in Tableau.
-
-Analyzed 30/60/90-day retention patterns and lifecycle drop-offs.
-
-Identified early churn as primary revenue leakage point.
-
-Calculated LTV and cohort-level revenue contribution.
-
-Proposed lifecycle-based interventions to improve retention and monetization.
 
 🛠 Analytical Approach
 1️⃣ Data Preparation
@@ -712,21 +701,4 @@ If implemented, projected outcomes include:
 
 Improved revenue predictability
 
-💼 Skills Demonstrated
-
-Product Analytics
-
-Cohort Analysis
-
-LTV Modeling
-
-Retention & Churn Diagnostics
-
-Executive Dashboard Design
-
-Data Storytelling for Leadership
-
-🧠 Interview Talking Point
-
-“I built an end-to-end subscription analytics dashboard to diagnose retention drop-offs and revenue concentration. Using cohort analysis and LTV segmentation, I identified where the business was leaking value and proposed lifecycle-based retention strategies.”
 
