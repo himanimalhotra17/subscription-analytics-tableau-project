@@ -2,32 +2,26 @@
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
 
-
 ## 📌 Project Overview
-### Business Problem:
-🚀Subscription-based digital product businesses rely heavily on retaining high-value customers.Business was experiencing fluctuating retention rates and 
-unclear revenue concentration also identifying churn risks and understanding lifetime value is often challenging. But the core product question for every business remains:👉 *Why do users churn, and how can we retain high-value customers?*
-In subscription businesses:
-Acquisition is expensive.
-Revenue depends on retention.
-Small improvements in churn significantly impact LTV.
 
-So, I built this project to simulate a real SaaS product analytics scenario using a single executive dashboard to uncover user retention, clear churn behavior, and (LTV) distribution visibility insights across the customer lifecycle.
+### Business Problem
+🚀Subscription-based digital product businesses rely heavily on retaining high-value customers.
 
-Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV).
+However Business experiences:
+Fluctuating Retention rates
+Expensive Acquisition 
+Unclear revenue concentration
+Churn Risks 
 
+Thus understanding lifetime value often gets challenging but the core product question remains:👉 *Why do users churn, and how can we retain high-value customers?*
 
-However, leadership lacked:
+So, I built this project to simulate a real SaaS product analytics scenario using a single executive dashboard to:
+Deliver Cohort-level retention visibility
+Uncover User Retention
+Diagnose clear Churn Behavior 
+Analyze Revenue quality and LTV distribution insights across the customer lifecycle.
 
-Cohort-level retention visibility
-
-Clear churn patterns
-
-LTV trends over time
-
-Revenue quality insights
-
-The goal was to build a decision-focused analytics dashboard to enable product and growth teams to take actionable steps.
+Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV) and enable product and growth teams to take actionable steps.
 
 ---
 
