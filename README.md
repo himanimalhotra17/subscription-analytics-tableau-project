@@ -2,54 +2,6 @@
 
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
-
-
-📂 Dataset Description
-
-The dataset contains 4 tables:
-
-Users
-
-User_ID
-
-Signup_Date
-
-Acquisition_Channel
-
-Country
-
-Device
-
-Subscriptions
-
-Subscription_ID
-
-Plan_Type
-
-Start_Date
-
-End_Date
-
-Monthly_Price
-
-Status (Active / Churned)
-
-Payments
-
-Payment_ID
-
-Payment_Date
-
-Revenue
-
-Activity
-
-Activity_Date
-
-Sessions
-
-Feature_Used
-
 📊 Dashboard Structure
 1️⃣ Executive Overview
 
@@ -284,6 +236,37 @@ The dashboard provides end-to-end lifecycle analytics from acquisition to churn 
 - Which acquisition channels drive highest LTV?
 - How can high-value users be segmented?
 - What product improvements would increase revenue?
+
+---
+
+## 📂 Dataset Description
+
+The dataset contains 4 tables:
+
+**1. Users**
+-User_ID
+-Signup_Date
+-Acquisition_Channel
+-Country
+-Device
+
+**2. Subscriptions**
+-Subscription_ID
+-Plan_Type
+-Start_Date
+-End_Date
+-Monthly_Price
+-Status (Active / Churned)
+
+**3. Payments**
+-Payment_ID
+-Payment_Date
+-Revenue
+
+**4. Activity**
+-Activity_Date
+-Sessions
+-Feature_Used
 
 ---
 
