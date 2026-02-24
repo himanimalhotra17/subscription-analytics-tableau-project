@@ -2,75 +2,6 @@
 
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
-📊 Dashboard Structure
-1️⃣ Executive Overview
-
-Total Users
-
-Active Subscribers
-
-Total Revenue
-
-Average LTV
-
-Monthly Revenue Trend
-
-2️⃣ Cohort Retention Analysis
-
-Monthly cohort heatmap
-
-Retention drop-off patterns
-
-3️⃣ Churn Analysis
-
-Churn rate by Plan
-
-Churn rate by Acquisition Channel
-
-4️⃣ LTV Analysis
-
-LTV by Channel
-
-LTV by Plan
-
-Cohort Revenue Trend
-
-5️⃣ Subscription Funnel
-
-Signup → Subscriber → Paying User → Repeat Subscriber
-
-6️⃣ RFM Segmentation
-
-Recency, Frequency, Monetary scoring
-
-Customer segments (Champions, Loyal, At Risk, Lost)
-
-Revenue contribution by segment
-
-### 📈 Key Insights
-
-Premium plan users generate the highest LTV.
-
-Paid channels acquire more users but lower retention.
-
-Champions segment contributes majority of total revenue.
-
-At-risk users show declining engagement before churn.
-
-### 🧠 Skills Demonstrated
-
-Cohort analysis
-
-Churn analytics
-
-Customer Lifetime Value modeling
-
-RFM segmentation
-
-SaaS KPI understanding
-
-Interactive dashboard design
-
 ### 🚀 Business Impact
 
 This dashboard enables:
@@ -302,16 +233,52 @@ Segmented users into:
 
 ---
 
+## 📊 Dashboard Structure
+### 1️⃣ Executive Overview
+
+Total Users
+Active Subscribers
+Total Revenue
+Average LTV
+Monthly Revenue Trend
+
+### 2️⃣ Cohort Retention Analysis
+
+Monthly cohort heatmap
+Retention drop-off patterns
+
+### 3️⃣ Churn Analysis
+Churn rate by Plan
+Churn rate by Acquisition Channel
+
+### 4️⃣ LTV Analysis
+
+LTV by Channel
+LTV by Plan
+Cohort Revenue Trend
+
+### 5️⃣ Subscription Funnel
+
+Signup → Subscriber → Paying User → Repeat Subscriber
+
+### 6️⃣ RFM Segmentation
+
+Recency, Frequency, Monetary scoring
+Customer segments (Champions, Loyal, At Risk, Lost)
+Revenue contribution by segment
+
+---
+
 ## 📈 Key Product Insights
 
-- Largest drop-off occurs between Trial and Subscription
 - Premium users generate significantly higher LTV
 - Retention drops sharply after Month 1
 - Referral channel shows strongest long-term retention
-• High acquisition ≠ high retention — paid channels drove volume but lower LTV
+• High acquisition ≠ high retention — paid channels drove volume but lower LTV/retention.
 • Engagement drop preceded churn, indicating potential early warning signals
-• A small “Champion” segment contributed a disproportionate share of revenue
-• Retention stabilized after the third billing cycle — critical activation window
+• A small “Champion” segment contributed a disproportionate share of revenue, Champions segment contributes majority of total revenue.
+• Retention stabilized after the third billing cycle — critical activation window. At-risk users show declining engagement before churn.
+
 ---
 
 ## 💡 Strategic Recommendations
@@ -352,6 +319,22 @@ Download here:
 - Product Analytics Frameworks
 - Cohort & Retention Modeling
 - RFM Segmentation
+
+---
+
+### 🧠 Skills Demonstrated
+
+Cohort analysis
+
+Churn analytics
+
+Customer Lifetime Value modeling
+
+RFM segmentation
+
+SaaS KPI understanding
+
+Interactive dashboard design
 
 ---
 
