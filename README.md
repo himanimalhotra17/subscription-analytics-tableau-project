@@ -8,17 +8,27 @@
 🚀Subscription-based digital product businesses rely heavily on retaining high-value customers.
 
 However Business experiences:
+
 -Fluctuating Retention rates
+
 -Expensive Acquisition 
+
 -Unclear revenue concentration
+
 -Churn Risks 
 
-Thus understanding lifetime value often gets challenging but the core product question remains:👉 *Why do users churn, and how can we retain high-value customers?*
+Thus understanding lifetime value often gets challenging but the core product question remains:
+
+👉 *Why do users churn, and how can we retain high-value customers?*
 
 So, I built this project to simulate a real SaaS product analytics scenario using a single executive dashboard to:
+
 -Deliver Cohort-level retention visibility
+
 -Uncover User Retention
+
 -Diagnose clear Churn Behavior 
+
 -Analyze Revenue quality and LTV distribution insights across the customer lifecycle.
 
 Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV) and enable product and growth teams to take actionable steps.
@@ -137,7 +147,7 @@ The dataset contains 4 tables:
 ## 📊 Analysis Framework
 
 ### 1️⃣ Funnel Analysis
-Signup → Trial → Subscription → Retention
+Signup → Subscription → Retention
 
 Identified conversion friction and drop-off percentages.
 
@@ -149,25 +159,35 @@ Used to evaluate product stickiness and engagement decay.
 ### 3️⃣ Activation & Stickiness
 Measured:
 - Activation Rate (within 7 days)
+  
 - DAU / MAU ratio
+  
 - Time to Value
 
 ### 4️⃣ Revenue & LTV Analysis
+
 - ARPU calculation
+
 - LTV distribution
+
 - Revenue contribution by segment
 
   
 ### 5️⃣ RFM Segmentation
 Segmented users into:
+
 - Champions
+
 - Loyal Customers
+
 - At-Risk Users
+
 - Low-Value Users
 
 ---
 
 ## 📊 Dashboard Structure
+
 ### 1️⃣ Executive Overview
 👉 Designed for leadership-level quick insights.
 Total Users
