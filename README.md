@@ -2,21 +2,7 @@
 
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
-📌 Project Overview
 
-This project analyzes a subscription-based SaaS business to understand:
-
-User retention trends
-
-Churn drivers
-
-Customer Lifetime Value (LTV)
-
-Revenue performance
-
-RFM-based customer segmentation
-
-The dashboard provides end-to-end lifecycle analytics from acquisition to churn.
 
 📂 Dataset Description
 
@@ -287,7 +273,7 @@ Open to feedback and product analytics opportunities!
 This project analyzes the full customer lifecycle of a subscription-based digital product.  
 The objective was to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV).
 
-The analysis replicates a real-world Product Analyst workflow used in SaaS companies.
+The dashboard provides end-to-end lifecycle analytics from acquisition to churn replicating the analysis workflow used in real-world SaaS companies.
 
 ---
 
