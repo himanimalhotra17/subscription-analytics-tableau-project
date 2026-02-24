@@ -4,20 +4,18 @@
 
 
 ## 📌 Project Overview
-
+### Business Problem:
 🚀Subscription-based digital product businesses rely heavily on retaining high-value customers.Business was experiencing fluctuating retention rates and 
 unclear revenue concentration also identifying churn risks and understanding lifetime value is often challenging. But the core product question for every business remains:👉 *Why do users churn, and how can we retain high-value customers?*
+In subscription businesses:
+Acquisition is expensive.
+Revenue depends on retention.
+Small improvements in churn significantly impact LTV.
 
 So, I built this project to simulate a real SaaS product analytics scenario using a single executive dashboard to uncover user retention, clear churn behavior, and (LTV) distribution visibility insights across the customer lifecycle.
 
 Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV).
 
-2️⃣ Business Problem
-
-In subscription businesses:
-Acquisition is expensive.
-Revenue depends on retention.
-Small improvements in churn significantly impact LTV.
 
 However, leadership lacked:
 
@@ -166,7 +164,7 @@ Segmented users into:
 
 ## 📊 Dashboard Structure
 ### 1️⃣ Executive Overview
-
+👉 Designed for leadership-level quick insights.
 Total Users
 Active Subscribers
 Total Revenue
@@ -190,13 +188,27 @@ Churn rate by Plan
 Churn rate by Acquisition Channel
 Monthly Churn Trend
 Churn by User Segment
+Insights:
 
+Majority churn within first 2 months.
+
+Lower-value plan users churn faster.
+
+Long-term subscribers significantly increase LTV.
 ### 4️⃣ LTV Analysis
 
 LTV by Channel
 LTV by Plan
 Cohort Revenue Trend
 - Segment-wise LTV Comparison
+
+Insights:
+
+Top 20% users drive majority of revenue.
+
+Long-retained cohorts generate exponential revenue growth.
+
+Reducing early churn by 10% would significantly increase total LTV.
 
 ### 5️⃣ Subscription Funnel
 
@@ -208,16 +220,43 @@ Recency, Frequency, Monetary scoring
 Customer segments (Champions, Loyal, At Risk, Lost)
 Revenue contribution by segment
 
-5️⃣ Analytical Approach
-Step 1: Data Cleaning
+## 🛠 Analytical Approach
+
+1️⃣ Data Preparation
 
 Removed duplicates
 
-Standardized subscription dates
+Cleaned subscription lifecycle data
 
-Calculated lifecycle duration
+Created churn flags (Active vs Cancelled)
 
-Derived churn flag (Active vs Cancelled)
+Engineered retention buckets
+
+Derived cohort month
+
+2️⃣ Feature Engineering
+
+LTV per customer
+
+Retention percentage calculations
+
+Cohort indexing
+
+Revenue segmentation
+
+3️⃣ Dashboard Development (Tableau)
+
+Executive Overview Page
+
+Cohort Retention Heatmap
+
+Churn Trend Analysis
+
+LTV Distribution Histogram
+
+Interactive filters (Plan, Segment, Signup Month)
+
+
 
 Step 2: Feature Engineering
 
@@ -375,97 +414,7 @@ Enabled data-driven customer targeting and proactive churn mitigation
 • RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
 • Subscription funnel analysis from signup to repeat subscription
 
-
-
 📈 **Learning:**  This project helped me strengthen my understanding of subscription metrics and how data can drive retention and growth strategies.
-
-
-
-
-
-
-
-5️⃣ Dashboard Structure
-
-The Tableau dashboard was structured into 4 strategic sections:
-
-1️⃣ Executive Overview
-
-High-level KPIs:
-
-Total Subscribers
-
-Active vs Churned Users
-
-Overall Churn Rate
-
-Average Lifetime
-
-Average LTV
-
-Total Revenue
-
-👉 Designed for leadership-level quick insights.
-
-2️⃣ Cohort Retention Analysis
-
-Visual:
-
-Cohort retention matrix
-
-Retention % across months
-
-User decay curve
-
-Insights delivered:
-
-Newer cohorts showed sharper early drop-offs.
-
-Most churn occurs within first 30–60 days.
-
-Strong early onboarding is critical.
-
-3️⃣ Churn Analysis
-
-Breakdown by:
-
-Subscription duration
-
-Plan type
-
-Revenue segment
-
-Insights:
-
-Majority churn within first 2 months.
-
-Lower-value plan users churn faster.
-
-Long-term subscribers significantly increase LTV.
-
-4️⃣ LTV & Revenue Analysis
-
-Visuals:
-
-LTV distribution
-
-Revenue contribution by cohort
-
-Revenue vs churn correlation
-
-Insights:
-
-Top 20% users drive majority of revenue.
-
-Long-retained cohorts generate exponential revenue growth.
-
-Reducing early churn by 10% would significantly increase total LTV.
-
-
-
-
-
-
 
 
 ## Impact Simulation
@@ -493,43 +442,6 @@ This project shows:
 ✔ Dashboard design for decision-makers
  
 ---
-
-## 🛠 Analytical Approach
-
-1️⃣ Data Preparation
-
-Cleaned subscription lifecycle data
-
-Created churn flags (Active vs Cancelled)
-
-Engineered retention buckets
-
-Derived cohort month
-
-2️⃣ Feature Engineering
-
-LTV per customer
-
-Retention percentage calculations
-
-Cohort indexing
-
-Revenue segmentation
-
-3️⃣ Dashboard Development (Tableau)
-
-Executive Overview Page
-
-Cohort Retention Heatmap
-
-Churn Trend Analysis
-
-LTV Distribution Histogram
-
-Interactive filters (Plan, Segment, Signup Month)
-
----
-
 
 ## 📊 Key Insights
 
