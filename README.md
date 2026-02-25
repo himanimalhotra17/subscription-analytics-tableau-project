@@ -97,13 +97,13 @@ The dataset contains 4 tables:
 | Tables                        | Attributes                                                                                                            |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------|
 | **1. Users**                  | User_ID, Signup_Date, Acquisition_Channel, Country, Device                                                            |
-| User acquisition information  |                                                                                                                       |
+| User acquisition information                                                                                                                          |
 | **2. Subscriptions**          | Subscription_ID, Plan_Type (Basic, Standard, Premium), Start_Date, End_Date, Monthly_Price, Status (Active / Churned) |
-| Tracks subscription lifecycle |                                                                                                                       |
+| Tracks subscription lifecycle                                                                                                                         |
 | **3. Payments**               | Payment_ID, Payment_Date, Revenue                                                                                     |
-| Tracks recurring subscription payments|                                                                                                               |
+| Tracks recurring subscription payments                                                                                                                |
 | **4. Activity**               | Activity_Date, Sessions, Feature_Used                                                                                 | 
-| Tracks product usage          |                                                                                                                       |
+| Tracks product usage                                                                                                                                |
 
 ---
 
