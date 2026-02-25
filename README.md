@@ -107,6 +107,44 @@ The dataset contains 4 tables:
 
 ---
 
+## 🛠 Analytical Approach
+
+### 1️⃣ Data Preparation
+
+Removed duplicates
+
+Cleaned subscription lifecycle data
+
+Created churn flags (Active vs Churned)
+
+Engineered retention buckets
+
+Derived cohort month
+
+### 2️⃣ Feature Engineering
+
+LTV per customer
+
+Retention percentage calculations(30/60/90)
+
+Cohort indexing
+
+Revenue segmentation
+
+### 3️⃣ Dashboard Development (Tableau)
+
+Executive Overview Page
+
+Cohort Retention Heatmap
+
+Churn Trend Analysis
+
+LTV Distribution Histogram
+
+Interactive filters (Plan, Acquisition Channel, User Country, Device Type)
+
+---
+
 ## 📊 Analysis Framework
 
 ### 1️⃣ Funnel Analysis
@@ -151,94 +189,81 @@ Segmented users into:
 ## 📊 Dashboard Structure
 
 ### 1️⃣ Executive Overview
+
 👉 Designed for leadership-level quick insights.
+
 Total Users
+
 Active Subscribers
+
 Total Revenue
+
 Churn Rate %
+
 Average LTV
+
 Revenue Trend Over Time
 
-### 2️⃣ Cohort Retention Analysis
+### 2️⃣ Growth & Acquisition Analysis
+
+Active vs Churned User Subscription Trend
+
+Channel Performance
+
+LTV Growth
+
+Subscription Funnel: Signup → Subscriber → Paying User → Repeat Subscriber
+
+### 3️⃣ Cohort Retention Analysis
 
 Monthly cohort heatmap
+
 Retention Trend by Signup Month
+
 Retention drop-off patterns
 
-### 3️⃣ Churn Analysis
-Churn rate by Plan
-Churn rate by Acquisition Channel
-Monthly Churn Trend
-Churn by User Segment
-Insights:
-Majority churn within first 2 months.
-Lower-value plan users churn faster.
-Long-term subscribers significantly increase LTV.
+### 4️⃣ Churn Analysis
 
-### 4️⃣ LTV Analysis
+Churn rate by Plan
+
+Churn rate by Acquisition Channel
+
+Monthly Churn Trend
+
+Churn by User Segment
+
+### 5️⃣ LTV Analysis
 
 LTV by Channel
+
 LTV by Plan
-Cohort Revenue Trend
+
 Segment-wise LTV Comparison
+
 30 / 60 / 90 Day Retention
-
-Insights:
-
-Top 20% users drive majority of revenue.
-
-Long-retained cohorts generate exponential revenue growth.
-
-Reducing early churn by 10% would significantly increase total LTV.
-
-### 5️⃣ Subscription Funnel
-
-Signup → Subscriber → Paying User → Repeat Subscriber
 
 ### 6️⃣ RFM Segmentation
 
 Recency, Frequency, Monetary scoring
-Customer segments (Champions, Loyal, At Risk, Lost)
+
+Customer segments (Champions, Loyal, At Risk, Lost, New Customers, Average Customers)
+
 Revenue contribution by segment
 
----
 
-## 🛠 Analytical Approach
+### 7️⃣ Engagement & Conversion Analysis
 
-1️⃣ Data Preparation
+Time to Value
 
-Removed duplicates
+Stickiness
 
-Cleaned subscription lifecycle data
+User Lifetime Distribution
 
-Created churn flags (Active vs Cancelled)
+Expansion Rate (Premium Plan)
 
-Engineered retention buckets
+Feature Adoption Rate
 
-Derived cohort month
-
-2️⃣ Feature Engineering
-
-LTV per customer
-
-Retention percentage calculations(30/60/90)
-
-Cohort indexing
-
-Revenue segmentation
-
-
-3️⃣ Dashboard Development (Tableau)
-
-Executive Overview Page
-
-Cohort Retention Heatmap
-
-Churn Trend Analysis
-
-LTV Distribution Histogram
-
-Interactive filters (Plan, User Segment, Signup Month)
+Engagement vs Retention
 
 ---
 
