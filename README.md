@@ -1,19 +1,17 @@
 # 📊Subscription Product Analytics Project
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
----
-
 ## 📌 Project Overview
-
 ### The Challenge 🚀
 For any SaaS Subscription-based digital product business, high-value retention is the primary growth engine. But when retention fluctuates and acquisition costs climb, the "why" behind user churn often remains a mystery.
 
 ### The Project 📊
 I built this SaaS Analytics Dashboard to simulate a real SaaS product analytics scenario and bridge the gap between raw data and strategic action.
-
 #### Key Features:
 **Retention Visibility:** Clear, cohort-based views of user longevity.
+
 **Revenue Quality:** Deep dives into LTV distribution to identify where real value lives.
+
 **Growth Levers:** Identifying precisely where to optimize the lifecycle for maximum impact.
 
 Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV) and enable product and growth teams to take actionable steps.
