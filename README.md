@@ -424,21 +424,9 @@ Interactive dashboard design
 
 Data Storytelling
 
-BI Dashboard Design
-
-### Technical Skills Demonstrated
-
-Tableau Dashboard Design
-
-Calculated Fields & KPI Engineering
-
-Cohort Analysis
-
-LTV Modeling
-
 Retention Funnel Analysis
 
-Executive-Level Data Storytelling
+BI Dashboard Design
 
 ---
 📊 **What the dashboard covers:**
