@@ -1,35 +1,20 @@
 # 📊Subscription Product Analytics Project
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
+---
 
 ## 📌 Project Overview
 
-### Business Problem
-🚀Subscription-based digital product businesses rely heavily on retaining high-value customers.
+### The Challenge 🚀
+For any SaaS Subscription-based digital product business, high-value retention is the primary growth engine. But when retention fluctuates and acquisition costs climb, the "why" behind user churn often remains a mystery.
 
-However Business experiences:
+### The Project 📊
+I built this SaaS Analytics Dashboard to simulate a real SaaS product analytics scenario and bridge the gap between raw data and strategic action.
 
--Fluctuating Retention rates
-
--Expensive Acquisition 
-
--Unclear revenue concentration
-
--Churn Risks 
-
-Thus understanding lifetime value often gets challenging but the core product question remains:
-
-👉 *Why do users churn, and how can we retain high-value customers?*
-
-So, I built this project to simulate a real SaaS product analytics scenario using a single executive dashboard to:
-
--Deliver Cohort-level retention visibility
-
--Uncover User Retention
-
--Diagnose clear Churn Behavior 
-
--Analyze Revenue quality and LTV distribution insights across the customer lifecycle.
+#### Key Features:
+**Retention Visibility:** Clear, cohort-based views of user longevity.
+**Revenue Quality:** Deep dives into LTV distribution to identify where real value lives.
+**Growth Levers:** Identifying precisely where to optimize the lifecycle for maximum impact.
 
 Instead of just reporting metrics, I approached this from a product decision-making lens — focusing on lifecycle behavior, engagement signals, and revenue impact to identify conversion bottlenecks, optimize retention, and improve customer lifetime value (LTV) and enable product and growth teams to take actionable steps.
 
@@ -37,29 +22,25 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 
 🔗 Live Dashboard: https://public.tableau.com/app/profile/himani.malhotra/viz/ProductAnalyticsSubscriptionRetentionChurnLTVDashboard/ExecutiveOverview
 
-----
-
-## 🎯 Business Questions
-
-- Where do users drop off in the conversion funnel?
-- What is the 30/60/90-day retention performance?
-- Which acquisition channels drive highest LTV?
-- How can high-value users be segmented?
-- What product improvements would increase revenue?
-
 ---
+
 
 ## 📊 **What I analyzed:**
 
 • Cohort retention trends to understand long-term engagement
+
 • Churn drivers by acquisition channel and subscription plan
+
 • Customer Lifetime Value (LTV) optimization by segment
+
 • Revenue Concentration and retention drop offs
+
 • RFM segmentation (Recency, Frequency, Monetary) to identify:
 * Champions
 * Loyal users
 * At-risk customers
 * Lost users
+
 • Subscription funnel from Signup → First Payment → Repeat Subscription
 
 
