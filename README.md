@@ -72,9 +72,11 @@ Time Interval in which users remain active on a platform or service before churn
 Average time a customer remains subscribed before cancelling
 
 **DAU, MAU, Stickiness**
+
 Daily Active Users / Monthly Active Users
 
 **TTV**
+
 Time to Value
 
 **Activation Rate**
@@ -82,6 +84,7 @@ Time to Value
 **Feature Adoption Rate**
 
 **MRR**
+
 Monthly Recurring Revenue
 
 ---
@@ -91,12 +94,16 @@ Monthly Recurring Revenue
 The dataset contains 4 tables:
 
 
-| Tables                        | Attributes                                                                                 |
-| ----------------------------- | -------------------------------------------------------------------------------------------|
-| **1. Users**                  | User_ID, Signup_Date, Acquisition_Channel, Country, Device                                 |
-| **2. Subscriptions**          | Subscription_ID, Plan_Type, Start_Date, End_Date, Monthly_Price, Status (Active / Churned) |
-| **3. Payments**               | Payment_ID, Payment_Date, Revenue                                                          |
-| **4. Activity**               | Activity_Date, Sessions, Feature_Used                                                      |       
+| Tables                        | Attributes                                                                                                            |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------|
+| **1. Users**                  | User_ID, Signup_Date, Acquisition_Channel, Country, Device                                                            |
+| User acquisition information  |                                                                                                                       |
+| **2. Subscriptions**          | Subscription_ID, Plan_Type (Basic, Standard, Premium), Start_Date, End_Date, Monthly_Price, Status (Active / Churned) |
+| Tracks subscription lifecycle |                                                                                                                       |
+| **3. Payments**               | Payment_ID, Payment_Date, Revenue                                                                                     |
+| Tracks recurring subscription payments|                                                                                                               |
+| **4. Activity**               | Activity_Date, Sessions, Feature_Used                                                                                 | 
+| Tracks product usage          |                                                                                                                       |
 
 ---
 
