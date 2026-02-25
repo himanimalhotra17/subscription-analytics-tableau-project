@@ -96,14 +96,14 @@ The dataset contains 4 tables:
 
 | Tables                        | Attributes                                                                                                            |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------|
-| **1. Users**                  | User_ID, Signup_Date, Acquisition_Channel, Country, Device                                                            |
-| User acquisition information                                                                                                                          |
-| **2. Subscriptions**          | Subscription_ID, Plan_Type (Basic, Standard, Premium), Start_Date, End_Date, Monthly_Price, Status (Active / Churned) |
-| Tracks subscription lifecycle                                                                                                                         |
-| **3. Payments**               | Payment_ID, Payment_Date, Revenue                                                                                     |
-| Tracks recurring subscription payments                                                                                                                |
-| **4. Activity**               | Activity_Date, Sessions, Feature_Used                                                                                 | 
-| Tracks product usage                                                                                                                                |
+| **1. Users**                  | User acquisition information                                                                                          |
+|                               | User_ID, Signup_Date, Acquisition_Channel, Country, Device                                                            |
+| **2. Subscriptions**          | Tracks subscription lifecycle                                                                                         |
+|                               | Subscription_ID, Plan_Type (Basic, Standard, Premium), Start_Date, End_Date, Monthly_Price, Status (Active / Churned) |                                                                                      
+| **3. Payments**               | Tracks recurring subscription payments                                                                                |
+|                               | Payment_ID, Payment_Date, Revenue                                                                                     |
+| **4. Activity**               | Tracks product usage                                                                                                  | 
+|                               | Activity_Date, Sessions, Feature_Used                                                                                |
 
 ---
 
@@ -364,17 +364,15 @@ Higher revenue stability
 
 ---
 
-
-
 ## 🖥 Dashboard
 
 Interactive Tableau dashboard included:
 
-`dashboard/subscription-product-analytics-dashboard.twbx`
+'Product Analytics_ Subscription Retention, Churn & LTV Dashboard.twbx'
 
 Preview:
 
-![Dashboard](images/full_dashboard.png)
+<img width="1920" height="1080" alt="Executive Overview" src="https://github.com/user-attachments/assets/73ba4e9d-8439-40bf-8aea-5964655f4c65" />
 
 ---
 
@@ -385,6 +383,14 @@ Download here:
 `case-study/Branded_Product_Analytics_Case_Study_Consulting_Style.pdf`
 
 ---
+📊 **What the dashboard covers:**
+
+• Executive overview with Revenue, Active Users, LTV, and Churn Rate
+• Cohort retention analysis to track user engagement over time
+• Churn analysis by acquisition channel and subscription plan
+• Customer Lifetime Value (LTV) analysis to identify high-value segments
+• RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
+• Subscription funnel analysis from signup to repeat subscription
 
 ## 🛠 Tools Used
 
@@ -418,14 +424,7 @@ Retention Funnel Analysis
 BI Dashboard Design
 
 ---
-📊 **What the dashboard covers:**
 
-• Executive overview with Revenue, Active Users, LTV, and Churn Rate
-• Cohort retention analysis to track user engagement over time
-• Churn analysis by acquisition channel and subscription plan
-• Customer Lifetime Value (LTV) analysis to identify high-value segments
-• RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
-• Subscription funnel analysis from signup to repeat subscription
 
 💡 **Product Implications:**
 
@@ -441,25 +440,6 @@ Better marketing budget allocation
 Churn reduction strategies
 High-value user targeting
 Revenue growth optimization
-
-Built executive KPI dashboard tracking Revenue, LTV, Churn Rate, and Active Users
-Designed Cohort Retention Analysis to measure long-term engagement trends
-Performed RFM (Recency, Frequency, Monetary) segmentation to identify Champions, Loyal, At-Risk, and Lost users
-Conducted churn analysis by plan type and acquisition channel
-Delivered actionable recommendations to optimize marketing ROI and improve retention
-## Impact Simulation
-
-If early churn reduces by 10%:
-
-Retention increases
-
-Average lifetime increases
-
-LTV improves significantly
-
-Revenue compounds over time
-
-Even a small retention lift in subscription models creates disproportionate revenue growth.
 
 ##  💼 What This Project Demonstrates 
 This project shows:
@@ -483,5 +463,7 @@ Open to feedback and product analytics opportunities!
 Himani Malhotra  
 Data & Product Analyst  
 malhotrahimani29@gmail.com
+
+---
 
 ---
