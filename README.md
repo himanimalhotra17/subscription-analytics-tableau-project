@@ -351,6 +351,7 @@ Higher revenue stability
 Interactive Tableau dashboard included:
 
 'Product Analytics_ Subscription Retention, Churn & LTV Dashboard.twbx'
+https://github.com/himanimalhotra17/subscription-analytics-tableau-project/blob/main/Product%20Analytics_%20Subscription%20Retention%2C%20Churn%20%26%20LTV%20Dashboard.twbx
 
 Preview:
 
