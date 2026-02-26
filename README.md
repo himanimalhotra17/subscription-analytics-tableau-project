@@ -287,7 +287,7 @@ Premium plan users and the "Champion" segment (top 20% of users) drive the vast 
 
 **Implication:** Growth strategy should balance acquisition + lifecycle optimization.
 
-### 📈 📊LTV Distribution is Right-Skewed
+### 📈 LTV Distribution is Right-Skewed
 
 Premium plan users generated significantly higher lifetime value
 
