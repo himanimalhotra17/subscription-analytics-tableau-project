@@ -380,8 +380,6 @@ Preview:
 
 ## 📄 Full Case Study 
 
-Download here:
-
 [Download Here](https://github.com/himanimalhotra17/subscription-analytics-tableau-project/blob/main/Subscription%20Analytics%20Tableau%20Project.pdf)
 
 ---
