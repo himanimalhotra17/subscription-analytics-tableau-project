@@ -1,6 +1,7 @@
 # Subscription Product Analytics Project
 ## Retention, Churn, LTV & RFM Analysis using Tableau
 
+---
 
 ## 📌 Project Overview
 ### The Challenge 🚀
@@ -19,7 +20,8 @@ Instead of just reporting metrics, I approached this from a product decision-mak
 
 ---
 
-🔗 Live Dashboard: https://public.tableau.com/app/profile/himani.malhotra/viz/ProductAnalyticsSubscriptionRetentionChurnLTVDashboard/ExecutiveOverview
+## 🔗 Live Dashboard: 
+https://public.tableau.com/app/profile/himani.malhotra/viz/ProductAnalyticsSubscriptionRetentionChurnLTVDashboard/ExecutiveOverview
 
 ---
 
@@ -360,13 +362,18 @@ Preview:
 
 ---
 
-## 📊 What the dashboard covers:
+## 📊 What the dashboard covers
 
 • Executive overview with Revenue, Active Users, LTV, and Churn Rate
+
 • Cohort retention analysis to track user engagement over time
+
 • Churn analysis by acquisition channel and subscription plan
+
 • Customer Lifetime Value (LTV) analysis to identify high-value segments
+
 • RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
+
 • Subscription funnel analysis from signup to repeat subscription
 
 ---
@@ -392,7 +399,6 @@ Download here:
 ---
 
 ##  💼 What This Project Demonstrates 
-This project shows:
 
 ✔ Strong product analytics fundamentals
 
@@ -409,6 +415,7 @@ This project shows:
  ---
  
 ### 📈 **Learning:**  
+
 This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
 
 Open to feedback and product analytics opportunities!
@@ -420,7 +427,5 @@ Open to feedback and product analytics opportunities!
 Himani Malhotra  
 Data & Product Analyst  
 malhotrahimani29@gmail.com
-
----
 
 ---
