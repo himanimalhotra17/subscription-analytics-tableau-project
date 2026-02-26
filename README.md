@@ -378,11 +378,11 @@ Preview:
 
 ---
 
-## 📄 Full Case Study (Consulting Style)
+## 📄 Full Case Study 
 
 Download here:
 
-`case-study/Branded_Product_Analytics_Case_Study_Consulting_Style.pdf`
+[Download Here](
 
 ---
 
