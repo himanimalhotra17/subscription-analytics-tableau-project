@@ -94,16 +94,16 @@ Monthly Recurring Revenue
 The dataset contains 4 tables:
 
 
-| Tables                        | Attributes                                                                                                            |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------|
-| **1. Users**                  | User acquisition information                                                                                          |
-|                               | User_ID, Signup_Date, Acquisition_Channel, Country, Device                                                            |
-| **2. Subscriptions**          | Tracks subscription lifecycle                                                                                         |
-|                               | Subscription_ID, Plan_Type (Basic, Standard, Premium), Start_Date, End_Date, Monthly_Price, Status (Active / Churned) |                                                                                      
-| **3. Payments**               | Tracks recurring subscription payments                                                                                |
-|                               | Payment_ID, Payment_Date, Revenue                                                                                     |
-| **4. Activity**               | Tracks product usage                                                                                                  | 
-|                               | Activity_Date, Sessions, Feature_Used                                                                                |
+| Tables                         | Attributes                                                                                                            |
+| -------------------------------| ----------------------------------------------------------------------------------------------------------------------|
+| **1. Users**                   | User acquisition information                                                                                          |
+|                                | User_ID, Signup_Date, Acquisition_Channel, Country, Device                                                            |
+| **2. Subscriptions**           | Tracks subscription lifecycle                                                                                         |
+|                                | Subscription_ID, Plan_Type (Basic, Standard, Premium), Start_Date, End_Date, Monthly_Price, Status (Active / Churned) |                                                                                     
+| **3. Payments**                | Tracks recurring subscription payments                                                                                |
+|                                | Payment_ID, Payment_Date, Revenue                                                                                     |
+| **4. Activity**                | Tracks product usage                                                                                                  | 
+|                                | Activity_Date, Sessions, Feature_Used                                                                                 |
 
 ---
 
@@ -269,54 +269,36 @@ Engagement vs Retention
 
 ## 📈 Key Product Insights
 
-- Premium plan users generated significantly higher lifetime value
-- Referral channel shows strongest long-term retention
-• High acquisition ≠ high retention — paid channels drove volume/acquisition but lower LTV/retention.
-• Engagement drop preceded churn, indicating potential early warning signals, Declining engagement was a strong early indicator of churn
-• Retention stabilized after the third billing cycle — critical activation window. At-risk users show declining engagement before churn.
+### 📉 Retention Drop After 60 Days
 
-### 📉 Retention Drop After 60 Days/ Early Churn is the Core Problem
+Retention is strong for 30 days but drops significantly between 60–90 days. Users who survive past the third billing cycle tend to stabilize, marking this as the critical activation window
 
-Strong 30-day retention but a noticeable decline at 60–90 days — indicating engagement gaps post-trial.
-
-Implication: Onboarding & activation improvements can drastically impact retention.
-
-### 💰 Revenue is Highly Concentrated
-
-Top 20% of users contribute a disproportionately large share of revenue.
+**Implication:** Onboarding, activation & engagement improvements can drastically impact retention.
 
 ### ⚠️ Cohort Quality Varies
 
 Some acquisition cohorts show weaker long-term retention — suggesting channel quality differences.
 
-Implication: Possible product-market fit or onboarding experience issue.
+**Implication:** Possible product-market fit or onboarding experience issue.
 
+### 💰 Revenue is Highly Concentrated
+
+Premium plan users and the "Champion" segment (top 20% of users) drive the vast majority of total revenue
+
+**Implication:** Growth strategy should balance acquisition + lifecycle optimization.
 
 ### 📈 📊LTV Distribution is Right-Skewed
 
-A small high-value user segment drives significant revenue impact.
-• A small “Champion” segment contributed a disproportionate share of revenue, Champions segment contributes majority of total revenue.
+Premium plan users generated significantly higher lifetime value
 
-Implication: Growth strategy should balance acquisition + lifecycle optimization.
-🔎 3. High LTV Users Are Long-Term Retained Users
+High acquisition ≠ high retention — paid channels drove volume/acquisition but lower LTV/retention.
 
-Revenue compounds over time in subscription models.
-
-Implication: Invest in engagement loops, loyalty benefits, renewal incentives.
+**Implication:** Invest in engagement loops, loyalty benefits, renewal incentives.
 
 ---
 
-## 💡 Strategic Recommendations
 
-- Improve onboarding flow to increase activation
-- Optimize pricing & trial-to-paid transition
-- Focus retention campaigns on high-value segments
-- Invest more in high-LTV acquisition channels
-- Implement churn prediction model
-
----
-
-## Business Recommendations
+## 💡Strategic Business Recommendations
 
 ### 🎯 1. Strengthen 30–60 Day Engagement
 
@@ -330,7 +312,7 @@ Incentivize milestone usage
 
 ### 🎯 2. Protect High LTV Segment
 
-Early churn prediction model
+Implement Early churn prediction model
 
 Premium annual renewal incentives, loyalty benefits and Plan upgrades with bundled features
 
@@ -352,7 +334,7 @@ Offer upgrade or discount incentives
  
 ## 📈Expected Business Impact 
 
-### If implemented, projected outcomes include:Estimated Improvements:
+### If implemented, projected outcomes include:
 
 +5–8% increase in 60-day retention
 
@@ -376,14 +358,7 @@ Preview:
 
 ---
 
-## 📄 Full Case Study (Consulting Style)
-
-Download here:
-
-`case-study/Branded_Product_Analytics_Case_Study_Consulting_Style.pdf`
-
----
-📊 **What the dashboard covers:**
+## 📊 What the dashboard covers:
 
 • Executive overview with Revenue, Active Users, LTV, and Churn Rate
 • Cohort retention analysis to track user engagement over time
@@ -392,64 +367,44 @@ Download here:
 • RFM segmentation to categorize users into Champions, Loyal, At-Risk, and Lost customers
 • Subscription funnel analysis from signup to repeat subscription
 
-## 🛠 Tools Used
+---
 
-- Tableau
-- Excel
-- SQL concepts
-- Product Analytics Frameworks
-- Cohort & Retention Modeling
-- RFM Segmentation
+## 📄 Full Case Study (Consulting Style)
+
+Download here:
+
+`case-study/Branded_Product_Analytics_Case_Study_Consulting_Style.pdf`
 
 ---
 
-### 🧠 Skills Demonstrated
+## 💡 Product Implications:
 
-Cohort analysis
+• Better marketing budget allocation to optimize revenue growth
 
-Churn analytics
+• Build nudges for declining engagement users - High-value user targeting
 
-Customer Lifetime Value modeling
+• Improve onboarding experience during first 30 days to reduce Churn
 
-RFM segmentation
-
-SaaS KPI understanding
-
-Interactive dashboard design
-
-Data Storytelling
-
-Retention Funnel Analysis
-
-BI Dashboard Design
+• Optimize marketing spend toward high-LTV acquisition channels - Target campaigns toward high-monetary, low-recency users
 
 ---
-
-
-💡 **Product Implications:**
-
-• Improve onboarding experience during first 30 days
-• Build nudges for declining engagement users
-• Target retention campaigns toward high-monetary, low-recency users
-• Optimize marketing spend toward high-LTV acquisition channels
-
-### 🚀 Business Impact
-
-This dashboard enables:
-Better marketing budget allocation
-Churn reduction strategies
-High-value user targeting
-Revenue growth optimization
 
 ##  💼 What This Project Demonstrates 
 This project shows:
 
 ✔ Strong product analytics fundamentals
+
 ✔ Deep understanding of retention economics
+
 ✔ Cohort-based thinking
+
 ✔ Revenue-centric analysis
+
 ✔ Business storytelling with data
-✔ Dashboard design for decision-makers
+
+✔ BI Dashboard design for decision-makers
+
+ ---
  
 ### 📈 **Learning:**  
 This project strengthened my ability to connect user behavior to business impact and think beyond dashboards toward product decisions.
